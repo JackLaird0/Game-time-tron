@@ -2,5 +2,8 @@
   border: 1px dashed;
   margin: auto;
   display: block;
-  background-color: rgb(27, 27, 27);
+  /* background-color: rgb(27, 27, 27); */
+  background-image: url('./../assets/graph-paper-black-green-grid-1920x1080-c2-000000-00ff7f-l2-2-46-a-0-f-20.svg');
+  background-size: 800px 600px
+
 }
