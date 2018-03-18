@@ -1,66 +1,63 @@
 body {
+  align-items: center;
   background-image: url('./../assets/tron.png');
-  background-size: 100vw 100vh;
   background-repeat: no-repeat;
+  background-size: 100vw 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-
-img{
-  display: block;
-  width: 300px;
-  margin: 0 0 30px 0;
-  border: solid 2px #4cd7f7;
-  border-radius: 5px;
 }
 
 h2 {
   font-family: 'Press Start 2P', cursive;
 }
 
-#game {
-  /* border: 1px dashed; */
-  margin: auto;
+img{
+  border: solid 2px #4cd7f7;
+  border-radius: 5px;
   display: block;
+  margin: 0 0 30px 0;
+  width: 300px;
+}
+
+#game {  
   background-image: url('./../assets/artboard.png');
   background-size: 800px 600px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.865);
+  display: block;
+  margin: auto;
+}
+
+.bike {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #091216;
+  border: solid 2px #4cd7f7;
+  border-radius: 5px;
+  height: 255px;
+  width: 300px;
+}
+
+.direction-keys {
+  border: none;
+  width: 190px;
+  margin-bottom: 0;
 }
 
 .control-canvas {
   display: flex;
 }
 
-.purple-bike{
-  width: 300px;
-  height: 200px;
-  background-color: #091216;
-  box-shadow: 3px 3px 3px #89d8da;
-  margin: 0 10px 0 0;
-  color: #b126f7;
-  border-radius: 10px;
-}
-
-.orange-bike{
-  width: 300px;
-  height: 200px;
-  background-color: #091216;
-  margin: 0 0 0 10px;
-  box-shadow: 3px 3px 3px #89d8da;
+.orange-bike {
   color: #f5ff33;
-  border-radius: 10px;
+  margin: 0 0 0 10px;
 }
 
-.bike {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.purple-bike {
+  color: #b126f7;
+  margin: 0 10px 0 0;
 }
-.direction-keys {
-  width: 120px;
-  height: 80px;
-  border: none;
-}
+
+
