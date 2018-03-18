@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="./lib/game.css" type="text/css" rel="stylesheet">
   <meta charset="utf-8">
   <title>Game Time</title>
 </head>
 <body>
-  <canvas id="game"
-          width="800"
-          height="600"></canvas>
+  <img src="./assets/Step_22.jpg">
+  <div class="control-canvas">
+    <div class="purple-bike bike">
+      <h2>Player One</h2>
+      <img src="./assets/WASD_Keys.png" class="direction-keys">
+    </div>
+    <canvas id="game"
+        width="800"
+        height="600">
+    </canvas>
+    <div class="orange-bike bike">
+      <h2>Player Two</h2>
+      <img src="./assets/Arrow_Keys.png" class="direction-keys">
+    </div>
+  </div>
   <script src="main.bundle.js"></script>
 </body>
 </html>

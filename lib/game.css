@@ -1,9 +1,66 @@
+body {
+  background-image: url('./../assets/tron.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  display: block;
+  width: 300px;
+  margin: 0 0 30px 0;
+  border: solid 2px #4cd7f7;
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+}
+
 #game {
-  border: 1px dashed;
+  /* border: 1px dashed; */
   margin: auto;
   display: block;
-  /* background-color: rgb(27, 27, 27); */
-  background-image: url('./../assets/graph-paper-black-green-grid-1920x1080-c2-000000-00ff7f-l2-2-46-a-0-f-20.svg');
-  background-size: 800px 600px
+  background-image: url('./../assets/artboard.png');
+  background-size: 800px 600px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.865);
+}
 
+.control-canvas {
+  display: flex;
+}
+
+.purple-bike{
+  width: 300px;
+  height: 200px;
+  background-color: #091216;
+  box-shadow: 3px 3px 3px #89d8da;
+  margin: 0 10px 0 0;
+  color: #b126f7;
+  border-radius: 10px;
+}
+
+.orange-bike{
+  width: 300px;
+  height: 200px;
+  background-color: #091216;
+  margin: 0 0 0 10px;
+  box-shadow: 3px 3px 3px #89d8da;
+  color: #f5ff33;
+  border-radius: 10px;
+}
+
+.bike {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.direction-keys {
+  width: 120px;
+  height: 80px;
+  border: none;
 }
