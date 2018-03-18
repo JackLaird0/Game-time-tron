@@ -37,10 +37,11 @@ h2 {
   width: 300px;
   height: 200px;
   background-color: #091216;
-  box-shadow: 3px 3px 3px #89d8da;
+  /* box-shadow: 3px 3px 3px #89d8da; */
+  border: solid 2px #4cd7f7;
   margin: 0 10px 0 0;
   color: #b126f7;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .orange-bike{
@@ -48,9 +49,10 @@ h2 {
   height: 200px;
   background-color: #091216;
   margin: 0 0 0 10px;
-  box-shadow: 3px 3px 3px #89d8da;
+  /* box-shadow: 3px 3px 3px #89d8da; */
   color: #f5ff33;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: solid 2px #4cd7f7;
 }
 
 .bike {
