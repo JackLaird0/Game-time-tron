@@ -1,8 +1,12 @@
 body {
-  align-items: center;
   background-image: url('./../assets/tron.png');
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+article {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,8 +60,56 @@ img{
 }
 
 .purple-bike {
-  color: #b126f7;
+  color: #0d0aa8;
   margin: 0 10px 0 0;
 }
 
+.pause-menu {
+  visibility: hidden;
+}
+.pause-instructions {
+  /* background: linear-gradient(to right, #b126f7, #4cd7f7, #fd2323); */
+  background-color: #091216;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin: 15px 0 0 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.865);
+  border-radius: 5px;
+  /* font-size: 15px; */
+  visibility: initial;
+  transition: 0.5s;
+}
 
+.start-menu {
+  visibility: hidden;
+}
+
+.start-instructions {
+  width: 400px;
+  background-color: #091216;
+  position: absolute;
+  height: 400px;
+  bottom: 500px;
+  top: auto;
+  bottom: auto;
+  border: solid 5px #4cd7f7;
+  display: flex;
+  color:#4cd7f7;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  line-height: 60px;
+  /* visibility: initial; */
+}
+
+
+
+.pause-text {
+  color: #4cd7f7;
+  text-shadow: blue(0, 0, 0, 0.865);
+}
