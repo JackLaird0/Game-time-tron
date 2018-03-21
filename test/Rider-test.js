@@ -1,9 +1,9 @@
 const chai = require('chai');
 const assert = chai.assert;
 const Rider = require('../lib/Rider');
-const context = canvas.getContext('2d');
+// const context = canvas.getContext('2d');
 
-describe(Rider, function() {
+describe('Rider', function() {
   it('should be a function', function() {
     assert.isFunction(Rider);
   });
@@ -41,14 +41,6 @@ describe(Rider, function() {
   it('should have an x direction', function() {
     var rider = new Rider(10, 12, 8, 8, 'red', 1);
     assert.equal(rider.xDir, 1)
-  })
-
-  it('should exist on the canvas when drawn', function() {
-    var rider = new Rider(10, 12, 8, 8, 'red', 1);
-
-    rider.draw(context);
-
-    assert.equal()
   })
 
 })
