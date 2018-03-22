@@ -105,11 +105,23 @@ img{
   text-align: center;
   line-height: 60px;
   /* visibility: initial; */
+  
+  /* transition: 0.5s; */
+  border-radius: 5px;
 }
 
 
+.start-instructions:hover {
+  color:#f74c4ce0;
+  border: solid 5px #f74c4ce0;
+}
+
+.pause-instructions:hover .pause-text {
+color: #f74c4ce0;
+}
 
 .pause-text {
-  color: #4cd7f7;
-  text-shadow: blue(0, 0, 0, 0.865);
+color: #4cd7f7;
+text-shadow: blue(0, 0, 0, 0.865);
+transition: 0.5s;
 }
