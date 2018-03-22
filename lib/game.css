@@ -60,7 +60,7 @@ img{
 }
 
 .purple-bike {
-  color: #0d0aa8;
+  color: #b126f7;
   margin: 0 10px 0 0;
 }
 
@@ -68,7 +68,6 @@ img{
   visibility: hidden;
 }
 .pause-instructions {
-  /* background: linear-gradient(to right, #b126f7, #4cd7f7, #fd2323); */
   background-color: #091216;
   width: 800px;
   display: flex;
@@ -78,7 +77,6 @@ img{
   margin: 15px 0 0 0;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.865);
   border-radius: 5px;
-  /* font-size: 15px; */
   visibility: initial;
   transition: 0.5s;
 }
@@ -104,9 +102,6 @@ img{
   font-family: 'Press Start 2P', cursive;
   text-align: center;
   line-height: 60px;
-  /* visibility: initial; */
-  
-  /* transition: 0.5s; */
   border-radius: 5px;
 }
 
